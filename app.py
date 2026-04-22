@@ -1,9 +1,13 @@
 import streamlit as st
 import string
 import pickle
-import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
+import nltk
+
+# Download required resources
+nltk.download('punkt')
+nltk.download('stopwords')
 
 # ---- Page Config ----
 st.set_page_config(page_title="Spam Detector AI", page_icon="🚀", layout="centered")
