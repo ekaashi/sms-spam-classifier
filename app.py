@@ -7,6 +7,7 @@ import nltk
 
 # Download required resources
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 # ---- Page Config ----
